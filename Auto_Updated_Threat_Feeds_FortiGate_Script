@@ -1,4 +1,11 @@
 config system external-resource
+
+edit "Malicious-IPs-Confirmed_by_yuvalg72"
+set type address
+set resource "https://github.com/yuvalg72/Cyber_Security-Blocklist-Compilation/blob/main/Malicious-IPs"
+set refresh-rate 43200
+next
+
 edit "CINS-Army"
 set type address
 set resource "http://cinsscore.com/list/ci-badguys.txt"
