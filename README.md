@@ -50,7 +50,7 @@ Thank you for your interest in my GitHub Repo "Cyber_Security-Blocklist-Compilat
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/yuvalgrimblat/).
 
-**Happy coding and stay secure!**
+**Happy networking and stay secure!**
 
 **Best Regards,**
 **Yuval Grimblat**
