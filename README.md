@@ -35,18 +35,32 @@ You can adjust the refresh rate for each Malicious IPs/URLs/Malware Hashes Repos
 This file contains a constantly evolving list of malicious IP addresses sourced from various threat intelligence feeds and community contributions.
 It serves as a reference for blocking or monitoring potentially harmful network traffic.
 
+### 3. External Resources Threat Feeds For Other FWs
+Enhance the security capabilities of various Firewalls with this script containing a curated list of external resources.
+Tailored for Firewalls beyond FortiGate, it provides valuable threat intelligence from diverse sources.
+Elevate your network defenses by leveraging these meticulously compiled feeds designed for a broader spectrum of Firewall platforms.
+
+
+#### Instructions for Using External Resources Threat Feeds on Other FWs:
+- **Step 1:** Download the file.
+- **Step 2:** Implement the Threat Feeds on your Firewalls (with the provided links in the file).
+   Each FW has its own configuration methods. For troubleshooting, ensure that you use the same naming conventions as I do.
+- **Step 3:** Implement the Threat Feeds by creating Deny Policies from/to your LANs.
+
 #### Note:
-- Regularly update your firewall or security infrastructure with the IPs listed in this file to enhance protection against known threats.
+- Regularly update your firewall or security infrastructure with the IPs/URLs/Malware Hashes listed in these files to enhance protection against known threats.
 
 ## Usage Disclaimer
 
-Using this repository is at your own responsibility. The author and contributors are not liable for any damages or security incidents that may arise from the use of the provided scripts or data.
+Using this repository is at your own responsibility.
+The author and contributors are not liable for any damages or security incidents that may arise from the use of the provided scripts or data.
 Exercise caution and thoroughly review and test any components before deploying them in a production environment.
 
 ## Contribution Guidelines
 
 Contributions to this repository are highly encouraged.
-If you come across new threat feeds, malicious IP addresses, or have improvements to the existing content, feel free to submit a pull request. Please adhere to the contribution guidelines outlined in the repository.
+If you come across new threat feeds, malicious IP addresses, or have improvements to the existing content, feel free to submit a pull request.
+Please adhere to the contribution guidelines outlined in the repository.
 
 ## Future Development
 
