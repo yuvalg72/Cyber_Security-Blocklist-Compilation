@@ -16,11 +16,13 @@ This is just the beginning of an evolving project that aims to provide valuable 
 
 ### 1. Auto_Updated_Threat_Feeds_FortiGate_Script
 
-This script is designed to facilitate the automated update of threat feeds on FortiGate devices. By using this script, you can ensure that your FortiGate firewalls are equipped with the latest threat intelligence, enhancing network security.
+This script is designed to facilitate the automated update of threat feeds on FortiGate devices.
+By using this script, you can ensure that your FortiGate firewalls are equipped with the latest threat intelligence, enhancing network security.
 
 #### Instructions for Use:
 - **Step 1:** Download/Copy the script.
-- **Step 2:** Insert the script (copy/paste) into your FortiGate via CLI. You can adjust the refresh rate for each Malicious IP Repo, from the default 43200 seconds (12 hours) to 1 second, the most frequent option.
+- **Step 2:** Insert the script (copy/paste) into your FortiGate via CLI.
+You can adjust the refresh rate for each Malicious IPs/URLs/Malware Hashes Repositories, from the default 43200 seconds (12 hours) to 1 second, the most frequent option.
 - **Step 3:** Implement the Threat Feeds by creating Deny Policies from/to your LANs.
 
 ### Note for FortiOS Users (as of 25/10/2023):
@@ -30,24 +32,29 @@ This script is designed to facilitate the automated update of threat feeds on Fo
 
 ### 2. Malicious-IPs
 
-This file contains a constantly evolving list of malicious IP addresses sourced from various threat intelligence feeds and community contributions. It serves as a reference for blocking or monitoring potentially harmful network traffic.
+This file contains a constantly evolving list of malicious IP addresses sourced from various threat intelligence feeds and community contributions.
+It serves as a reference for blocking or monitoring potentially harmful network traffic.
 
 #### Note:
 - Regularly update your firewall or security infrastructure with the IPs listed in this file to enhance protection against known threats.
 
 ## Usage Disclaimer
 
-Using this repository is at your own responsibility. The author and contributors are not liable for any damages or security incidents that may arise from the use of the provided scripts or data. Exercise caution and thoroughly review and test any components before deploying them in a production environment.
+Using this repository is at your own responsibility. The author and contributors are not liable for any damages or security incidents that may arise from the use of the provided scripts or data.
+Exercise caution and thoroughly review and test any components before deploying them in a production environment.
 
 ## Contribution Guidelines
 
-Contributions to this repository are highly encouraged. If you come across new threat feeds, malicious IP addresses, or have improvements to the existing content, feel free to submit a pull request. Please adhere to the contribution guidelines outlined in the repository.
+Contributions to this repository are highly encouraged.
+If you come across new threat feeds, malicious IP addresses, or have improvements to the existing content, feel free to submit a pull request. Please adhere to the contribution guidelines outlined in the repository.
 
 ## Future Development
 
-The Cyber_Security-Blocklist-Compilation project is an ongoing effort. In future releases, I plan to expand the collection, improve automation scripts, and provide additional tools to bolster cybersecurity efforts.
+The Cyber_Security-Blocklist-Compilation project is an ongoing effort.
+In future releases, I plan to expand the collection, improve automation scripts, and provide additional tools to bolster cybersecurity efforts.
 
-Your feedback and contributions are valuable in making this project more effective and comprehensive. Let's work together to create a safer digital environment.
+Your feedback and contributions are valuable in making this project more effective and comprehensive.
+Let's work together to create a safer digital environment.
 
 Thank you for your interest in my GitHub Repo "Cyber_Security-Blocklist-Compilation"!
 
