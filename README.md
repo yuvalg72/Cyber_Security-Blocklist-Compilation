@@ -52,6 +52,6 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/yuvalgrimblat/).
 
 **Happy coding and stay secure!**
 
-Best Regards,
-Yuval Grimblat
-IT & Security Integration Specialist at Mornex LTD
+**Best Regards,**
+**Yuval Grimblat**
+**IT & Security Integration Specialist at Mornex LTD**
