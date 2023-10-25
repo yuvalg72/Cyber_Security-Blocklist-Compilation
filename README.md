@@ -2,7 +2,7 @@
 
 ## Overview
 
-Hello, I'm Yuval Grimblat, an IT & Security Integration Specialist at Mornex LTD. Welcome to my GitHub repository, **Cyber_Security-Blocklist-Compilation**. This repository is dedicated to compiling and maintaining a comprehensive collection of cyber threat data, with a specific focus on malicious IP addresses. Currently, it includes two main files:
+Hello, I'm Yuval Grimblat, an IT & Security Integration Specialist at Mornex LTD. Welcome to my GitHub repository, **Cyber_Security-Blocklist-Compilation**. This repository is dedicated to compiling and maintaining a comprehensive collection of cyber threat data, with a specific focus on Malicious IP Addresses, Malicious URLs and Malware Hashes. Currently, it includes two main files:
 
 1. **Auto_Updated_Threat_Feeds_FortiGate_Script**
 2. **Malicious-IPs**
