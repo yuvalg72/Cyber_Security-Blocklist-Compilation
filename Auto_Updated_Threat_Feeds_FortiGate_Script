@@ -2,7 +2,7 @@ config system external-resource
 
 edit "Malicious-IPs-Confirmed_by_yuvalg72"
 set type address
-set resource "https://github.com/yuvalg72/Cyber_Security-Blocklist-Compilation/blob/main/Malicious-IPs"
+set resource "https://raw.githubusercontent.com/yuvalg72/Cyber_Security-Blocklist-Compilation/main/Malicious-IPs"
 set refresh-rate 43200
 next
 
