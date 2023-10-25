@@ -1,0 +1,107 @@
+config system external-resource
+edit "CINS-Army"
+set type address
+set resource "http://cinsscore.com/list/ci-badguys.txt"
+set refresh-rate 43200
+next
+
+edit "BlockList.de"
+set type address
+set resource "https://lists.blocklist.de/lists/all.txt"
+set refresh-rate 43200
+next
+
+edit "BruteForceBlocker"
+set type address
+set resource "http://opendbl.net/lists/bruteforce.list"
+set refresh-rate 43200
+next
+
+edit "Cybercrime-Hash-List"
+set type malware
+set resource "http://cybercrime-tracker.net/ccamlist.php"
+set refresh-rate 43200
+next
+
+edit "Emerging-Threats-Block-IPs"
+set type address
+set resource "https://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt"
+set refresh-rate 43200
+next
+
+edit "Emerging-Threats-Compromised-IPs"
+set type address
+set resource "https://rules.emergingthreats.net/blockrules/compromised-ips.txt"
+set refresh-rate 43200
+next
+
+edit "SSL-Abuse-IPs-list"
+set type address
+set resource "http://opendbl.net/lists/sslblock.list"
+set refresh-rate 43200
+next
+
+edit "TOR-Exit-Nodes"
+set type address
+set resource "http://opendbl.net/lists/tor-exit.list"
+set refresh-rate 43200
+next
+
+edit "SecOps-Institute-Tor-Exit-Nodes"
+set type address
+set resource "https://raw.githubusercontent.com/SecOps-Institute/Tor-IP-Addresses/master/tor-exit-nodes.lst"
+set refresh-rate 43200
+next
+
+
+edit "SecOps-Institute-Tor-Nodes"
+set type address
+set resource "https://raw.githubusercontent.com/SecOps-Institute/Tor-IP-Addresses/master/tor-nodes.lst"
+set refresh-rate 43200
+next
+
+edit "SpamhausIP_Subnets"
+set type address
+set resource "https://raw.githubusercontent.com/SecOps-Institute/SpamhausIPLists/master/drop.txt"
+set refresh-rate 43200
+next
+
+edit "Talos-Blacklist"
+set type address
+set resource "http://www.talosintelligence.com/documents/ip-blacklist"
+set refresh-rate 43200
+next
+
+edit "FeodoTracker.Abuse.ch"
+set type address
+set resource "https://feodotracker.abuse.ch/downloads/ipblocklist.txt"
+set refresh-rate 43200
+next
+
+edit "CheckPoint-IP-List-BulletProof"
+set type address
+set resource "https://secureupdates.checkpoint.com/IP-list/Bulletproof.txt"
+set refresh-rate 43200
+next
+
+edit "GreenSnow"
+set type address
+set resource "http://blocklist.greensnow.co/greensnow.txt"
+set refresh-rate 43200
+next
+
+edit "Phishing-Army-Domain-List"
+set type domain
+set category 193
+set resource "https://phishing.army/download/phishing_army_blocklist.txt"
+set refresh-rate 43200
+next
+
+edit "URL-haus"
+set type category
+set category 192
+set resource "https://urlhaus.abuse.ch/downloads/text/"
+set refresh-rate 43200
+next
+
+end
