@@ -66,6 +66,13 @@ set resource "https://raw.githubusercontent.com/SecOps-Institute/SpamhausIPLists
 set refresh-rate 43200
 next
 
+edit "Digitalocean-ASN-and-IPs-List"
+set type address
+set resource "https://raw.githubusercontent.com/SecOps-Institute/Digitalocean-ASN-and-IPs-List/master/digitalocean_ip_cidr_blocks.lst"
+set refresh-rate 43200
+next
+
+
 edit "Talos-Blacklist"
 set type address
 set resource "http://www.talosintelligence.com/documents/ip-blacklist"
