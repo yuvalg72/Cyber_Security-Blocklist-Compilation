@@ -9,7 +9,7 @@ This repository is dedicated to compiling and maintaining a comprehensive collec
 Currently, it includes two main files:
 1. **Auto_Updated_Threat_Feeds_FortiGate_Script**
 2. **Malicious-IPs**
-
+3. **External Resources Threat Feeds For Other FWs**
 This is just the beginning of an evolving project that aims to provide valuable resources for enhancing cybersecurity measures.
 
 ## Contents
