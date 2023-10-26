@@ -3,7 +3,9 @@
 ## Overview
 
 Hello, I'm Yuval Grimblat, an IT & Security Integration Specialist at Mornex LTD.
+
 Welcome to my GitHub repository, **Cyber_Security-Blocklist-Compilation**.
+
 This repository is dedicated to compiling and maintaining a comprehensive collection of cyber threat data, with a specific focus on Malicious IP Addresses, Malicious URLs and Malware Hashes.
 
 Currently, it includes two main files:
