@@ -8,7 +8,7 @@ Welcome to my GitHub repository, **Cyber_Security-Blocklist-Compilation**.
 
 This repository is dedicated to compiling and maintaining a comprehensive collection of cyber threat data, with a specific focus on Malicious IP Addresses, Malicious URLs and Malware Hashes.
 
-Currently, it includes two main files:
+𝐂𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲, 𝐢𝐭 𝐢𝐧𝐜𝐥𝐮𝐝𝐞𝐬 𝐭𝐡𝐫𝐞𝐞 𝐦𝐚𝐢𝐧 𝐟𝐢𝐥𝐞𝐬:
 1. **Auto_Updated_Threat_Feeds_FortiGate_Script**
 2. **Malicious-IPs**
 3. **External Resources Threat Feeds For Other FWs**
