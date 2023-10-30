@@ -111,6 +111,13 @@ set resource "https://phishing.army/download/phishing_army_blocklist.txt"
 set refresh-rate 43200
 next
 
+edit "Extended-Phishing-Army-Domain-List"
+set type domain
+set category 194
+set resource "https://phishing.army/download/phishing_army_blocklist_extended.txt"
+set refresh-rate 43200
+next
+
 edit "URL-haus"
 set type category
 set category 192
