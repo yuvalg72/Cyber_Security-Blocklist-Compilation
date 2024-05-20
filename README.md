@@ -28,8 +28,8 @@ By using this script, you can ensure that your FortiGate firewalls are equipped 
 You can adjust the refresh rate for each Malicious IPs/URLs/Malware Hashes Repositories, from the default 43200 seconds (12 hours) to 1 second, the most frequent option.
 - **Step 3:** Implement the Threat Feeds by creating Deny Policies from/to your LANs.
 
-### Note for FortiOS Users (as of 25/10/2023):
-- **Note #1:** Unfortunately, as of FortiOS versions 7.2.6 and 7.4.1, creating Groups of Threat Feeds (like Address Group or ISDB Groups) for more organized FW Policies (and not a substantial mess with many Threat Feeds that make every policy look "bulky") via the GUI is not supported.
+### Note for FortiOS Users (as of 20/05/2024):
+- **Note #1:** Unfortunately, as of FortiOS versions 7.2.8 and 7.4.3, creating Groups of Threat Feeds (like Address Group or ISDB Groups) for more organized FW Policies (and not a substantial mess with many Threat Feeds that make every policy look "bulky") via the GUI is not supported.
 
 - **Note #2:** If you have VIP Policies from WAN to your LANs (Port Forwarding), ensure using the command `set match-vip enable` in your Deny Policies from WAN to LAN.
 
