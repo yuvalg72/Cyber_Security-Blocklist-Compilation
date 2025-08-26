@@ -2,7 +2,7 @@
 
 ## Overview
 
-Hello, I'm Yuval Grimblat, an IT & Security Integration Specialist at Mornex LTD.
+Hello, I'm Yuval Grimblat, a Network Security Engineer at Mornex LTD.
 
 Welcome to my GitHub repository, **Cyber_Security-Blocklist-Compilation**.
 
